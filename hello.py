@@ -104,3 +104,8 @@ second_name = name[1]
 print(numbers)
 print(string1)
 print(" the second name on the names list is %s" % second_name)
+
+# Basic Operators
+nums=1+2*3/4.0
+print(nums)
+
