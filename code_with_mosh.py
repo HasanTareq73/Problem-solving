@@ -36,3 +36,24 @@ print("Hello you are %f KG" % weight_kg)
 
 
 print("Hello Mahadi")
+
+
+# String with Code_mosh
+
+Course= 'Python for Beginners'
+
+#len()
+Course.upper()
+Course.lower()
+
+Course.title()
+
+Course.find()
+
+Course.replace()
+
+'...' in Course
+
+
+
+print(Course.title)
