@@ -16,3 +16,17 @@ data = ("jhon", "Doe", 53.44)
 formating_string= "Hello %s %s. your Current balance is $%s."
 
 print(formating_string % data)
+
+
+##############################################################
+
+
+
+
+
+
+
+
+
+
+

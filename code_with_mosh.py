@@ -24,36 +24,57 @@
 
 # Ask a user their weight (in pounds), convert it to kilograms and print on the terminal
 
-weight_lbs = input('Weight (lbs): ')
-weight_kg = int(weight_lbs) * 0.45
+# weight_lbs = input('Weight (lbs): ')
+# weight_kg = int(weight_lbs) * 0.45
 
-print("Hello you are %f KG" % weight_kg)
-
-
+# print("Hello you are %f KG" % weight_kg)
 
 
 
 
 
-print("Hello Mahadi")
 
 
-# String with Code_mosh
-
-Course= 'Python for Beginners'
-
-#len()
-Course.upper()
-Course.lower()
-
-Course.title()
-
-Course.find()
-
-Course.replace()
-
-'...' in Course
+# print("Hello Mahadi")
 
 
+# # String with Code_mosh
 
-print(Course.title)
+# Course= 'Python for Beginners'
+
+# #len()
+# Course.upper()
+# Course.lower()
+
+# Course.title()
+
+# Course.find()
+
+# Course.replace()
+
+# '...' in Course
+
+
+
+# print(Course.title)
+
+
+################# Receiving INPUT #################
+
+
+# name= input("what is your name: ")
+# favorite_Color= input('What is your favorite Color?')
+# print (name + ' likes ' + favorite_Color)
+
+
+birth_year = int(input ('Birth year: '))
+print(type(birth_year))
+age= 2022 - birth_year
+print(age)
+
+# Ask a user their weight (in pounds), convert it to kilograms and print on the terminal
+
+weight_lbs= int(input("weight_lbs: "))
+
+weight_kg= weight_lbs * 0.45
+print ("Your weight calculate with KG: ", + weight_kg)
